@@ -50,7 +50,7 @@ public class Workspace extends Gmail{
                 prevEndTime = calendar.get(i).getEndTime();
             }
         }
-        System.out.println();
+        //System.out.println();
         return countMeetings;
     }
 }
